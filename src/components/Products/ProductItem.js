@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import Card from '../UI/Card';
 import { productContext } from '../../context/Products-Context';
 import './ProductItem.css';
-import { toggleFav } from '../../store/actions/products';
 
 const ProductItem = props => {
 //   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-export const productContext = createContext({ products: [], toggleFav })
+export const productContext = createContext({ products: [], toggleFav: (id) => {} })
 
 export default function ProductsProvider({ children }) {
   const [productList, setProductList] = useState( [

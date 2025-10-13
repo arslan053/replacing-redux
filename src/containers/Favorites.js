@@ -10,7 +10,7 @@ const Favorites = props => {
   //   state.shop.products.filter(p => p.isFavorite)
   // );
 
-  const favoriteProducts =useContext(productContext).products.filter(product => product.is)
+  const favoriteProducts =useContext(productContext).products.filter(product => product.isFavorite)
   let content = <p className="placeholder">Got no favorites yet!</p>;
   if (favoriteProducts.length > 0) {
     content = (
